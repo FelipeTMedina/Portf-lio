@@ -114,6 +114,12 @@ section{
     border: 1px solid black;
 padding-top: 100px;
 
+
+}
+
+article{
+    width: 100%;
+    height: 100px;
 }
 
 .alinhamento3{
@@ -134,19 +140,62 @@ padding-top: 100px;
 
 }
 
-.alinhamento3 > h1{
-    
-    font-size: 64px;
-    font-family: Roboto;
-    color: #445964;
-
-
-}
 
 .alinhamento4{
 display: flex;
 justify-content: center;
 margin-top: 108px;
 
+
+}
+
+article{
+ display: flex;
+
+}
+
+
+.alinhamento-principal{
+    border: 1px solid black;
+    gap: 98px;
+    display: flex;
+   
+    
+    
+    
+
+}
+
+
+.alinhamento-txt{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+
+}
+
+.alinhamento-ball{
+
+    display:flex;
+    
+
+
+
+
+
+}
+
+.ball{
+display: flex;
+justify-content: center;
+border: 1px solid black;
+width: 30px;
+height: 30px;
+border-radius: 30px;
 
 }
