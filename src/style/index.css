@@ -111,7 +111,6 @@ margin-top: 174px;
 
 
 section{
-border: 1px solid black;
 padding-top: 100px;
 
 
@@ -201,13 +200,11 @@ article {
     width: 30px;
     height: 30px;
     border-radius: 30px;
-    border: 1px solid black;
     margin: 10px;
     background: black;
 }
 
 .container1{
-    border: 1px solid black;
     margin-top: 153px;
 
 }
@@ -236,7 +233,6 @@ article {
 }
 
 .alinhamento-but{
-
     display: flex;
     gap: 30px;
     margin-left: 231px;
@@ -245,16 +241,43 @@ article {
 }
 
 .button2{
-    background-color: #445964;
+    background-color: #DFDFDF;
     width: 125px;
     height: 65px;
     border-radius: 20px;
     margin-top: 96px;
-    color: white;
+    color: #445964;
     font-family: Roboto;
     font-size: 24px;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 93px;
+    gap: 30px;
    
     
+}
+
+aside :nth-child(odd){
+    border: 1px solid black;
+    width: 340px;
+    height: 190px;
+    border-radius: 20px;
+    background-color: #263138;
+}
+
+aside :nth-child(even){
+    border: 1px solid black;
+    width: 340px;
+    height: 250px;
+    top: 445px;
+    left: 790px;
+    border-radius: 20px;
+    background-color: #445964;
     
 
 }
+
