@@ -84,7 +84,7 @@ p{
     line-height: 28.13px;
 }
 
-button{
+.button1{
 
     width: 310px;
     height: 65px;
@@ -111,7 +111,7 @@ margin-top: 174px;
 
 
 section{
-    border: 1px solid black;
+border: 1px solid black;
 padding-top: 100px;
 
 
@@ -151,59 +151,110 @@ margin-top: 108px;
 
 }
 
-article{
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-
-
-.alinhamento-principal{
+article {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    justify-items: center;
-    border: 1px solid black;
-    gap: 98px;
-    padding-top: 16px;
-   
-    
-    
-    
-
+    align-items: center;
 }
 
+.alinhamento-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
 
-.alinhamento-txt{
-    font-family: Roboto;
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    margin-top: 62px;
+}
+
+.container h1 {
+    font-family: "Roboto", sans-serif;
     font-size: 36px;
     font-weight: 900;
     line-height: 42px;
     letter-spacing: 0em;
     text-align: left;
+    color: #445964; 
+}
+
+.alinhamento-ball {
+    display: flex;
+    justify-content: center;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.ball-color{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 10px;
+    background: black;
+}
+
+.container1{
+    border: 1px solid black;
+    margin-top: 153px;
+
+}
+
+.alinhamento-port{
+    display: flex;
+    align-items: center;
+    gap: 91px;
+
+}
+
+.alinhamento-port > h1{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 235px;
+}
+
+.alinhamento-port > p{ 
+    font-size: 24px;
+    font-family: roboto;
+    line-height: 28px;
+}
+
+.alinhamento-but{
+
+    display: flex;
+    gap: 30px;
+    margin-left: 231px;
     
 
-
 }
 
-.alinhamento-ball{
-display: flex;
-justify-content: center;
-align-items: center;
-border: 1px solid black;
-
-
-
-}
-
-.ball{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-border: 1px solid black;
-width: 30px;
-height: 30px;
-border-radius: 30px;
+.button2{
+    background-color: #445964;
+    width: 125px;
+    height: 65px;
+    border-radius: 20px;
+    margin-top: 96px;
+    color: white;
+    font-family: Roboto;
+    font-size: 24px;
+   
+    
+    
 
 }
