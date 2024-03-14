@@ -111,7 +111,6 @@ margin-top: 174px;
 
 
 section{
-border: 1px solid black;
 padding-top: 100px;
 
 
@@ -162,7 +161,7 @@ article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .container {
@@ -201,13 +200,11 @@ article {
     width: 30px;
     height: 30px;
     border-radius: 30px;
-    border: 1px solid black;
     margin: 10px;
     background: black;
 }
 
 .container1{
-    border: 1px solid black;
     margin-top: 153px;
 
 }
@@ -236,7 +233,6 @@ article {
 }
 
 .alinhamento-but{
-
     display: flex;
     gap: 30px;
     margin-left: 231px;
@@ -245,16 +241,166 @@ article {
 }
 
 .button2{
-    background-color: #445964;
+    background-color: #DFDFDF;
     width: 125px;
     height: 65px;
     border-radius: 20px;
     margin-top: 96px;
-    color: white;
+    color: #445964;
     font-family: Roboto;
     font-size: 24px;
+}
+
+aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 93px;
+    gap: 30px;
    
     
+}
+
+aside :nth-child(odd){
+    border: 1px solid black;
+    width: 340px;
+    height: 190px;
+    border-radius: 20px;
+    background-color: #263138;
+}
+
+aside :nth-child(even){
+    border: 1px solid black;
+    width: 340px;
+    height: 250px;
+    top: 445px;
+    left: 790px;
+    border-radius: 20px;
+    background-color: #445964;
+}
+
+.Techs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Techs > h1{
+font-family: Roboto;
+font-size: 64px;
+font-weight: 900;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 167PX;
+
+}
+
+.Tecnologias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 117px;
+    gap: 25px;
+}
+
+.Tecnologias > p{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.Tecnologias >h3{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.imgs{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 152px;
+}
+
+footer > div{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 234px;
+    gap: 91px;
+    margin-right: 30px;
+}
+div > p{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: right;
+
+}
+
+div > h2{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
     
 
 }
+
+.card1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+    width: 530px;
+    height: 280px;
+    top: 394px;
+    left: 1286px;
+    border-radius: 20px;
+    gap: 2  0px;
+    border: 1px solid black;
+}
+
+.card :nth-child(odd){
+
+    
+}
+
+.card :nth-child(even){
+    margin-top: 20px;
+    
+     
+}
+
