@@ -128,7 +128,7 @@ article{
  justify-content: center;
  align-items: center;
  flex-direction: column;
- gap: 24px;
+ gap: 30px;
     
 }
 
@@ -145,7 +145,7 @@ article{
 .alinhamento4{
 display: flex;
 justify-content: center;
-margin-top: 108px;
+margin-top: 150px;
 
 
 }
@@ -155,6 +155,7 @@ article {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .alinhamento-principal {
@@ -162,6 +163,7 @@ article {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
+    gap: 30px;
 }
 
 .container {
@@ -170,7 +172,8 @@ article {
     align-items: center;
     justify-content: center;
     margin-right: 50px;
-    margin-top: 62px;
+    margin-top: 75px;
+    
 }
 
 .container h1 {
@@ -389,18 +392,57 @@ div > h2{
     top: 394px;
     left: 1286px;
     border-radius: 20px;
-    gap: 2  0px;
+    gap: 20px;
     border: 1px solid black;
 }
 
-.card :nth-child(odd){
-
-    
+.card0{
+    border: 1px solid black;
+    width: 530px;
+    height: 280px;
+    top: 394px;
+    left: 1286px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
-.card :nth-child(even){
-    margin-top: 20px;
-    
-     
+
+@media (max-width: 448px) {
+
+    header{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid black;
+        align-items: center;
+        
+
+
+
+    }
+
+    .navegacao{
+
+            display: flex;
+            justify-content: end;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid black;
+    }
+
+
 }
 
+.text-alinhamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+
+}
