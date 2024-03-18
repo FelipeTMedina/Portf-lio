@@ -51,14 +51,22 @@ a:hover{
   color: black;
 }
 
+main{
+  display: flex;
+}
+
 .content-cabecalho{
   border: 1px solid white;
   display: flex;
   color: white;
   flex-direction: column;
+  margin-left: 95px;
   margin-top: 174px;
   gap: 8px;
+}
 
+.content-cabecalho > h1{
+font-size: 55px;
 }
 
 
