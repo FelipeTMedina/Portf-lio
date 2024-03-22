@@ -5,6 +5,7 @@
 
 }
 body{
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,9 +15,11 @@ body{
 }
 
 header{
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 26px;
   
 
 } 
@@ -61,14 +64,16 @@ a:hover{
 }
 
 main{
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .content-cabecalho{
   color: white;
-  margin-top: 174px;
+  margin-top: 215px;
   gap: 8px;
+  margin-left: 45px;
 }
 
 .content-filho{
@@ -85,17 +90,18 @@ main{
 }
 
 .content-img{
+  width: 400px;
   display: flex;
   justify-content: end;
-  margin-left: 700px;
+  margin-left: 750px;
   gap: 30px;
-  margin-top: -200px;
+  margin-top: -270px;
 }
 
 .content-button{
   display: flex;
   align-items: center;
-  margin-top: -175px;
+  margin-top: -70px;
  
   
 }
@@ -117,23 +123,45 @@ main{
   align-items: center;
   gap: 22px;
   margin-top: 70px;
-  margin-left: 20px;
 }
 
 section{
-  display: flex;
   width: 100%;
-  height: 400px;
+  display: flex;
   color: white;
 }
 
 .alinhamento-section{
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-top: 189px;
-  margin-left: 112px;
+  margin-top: 250px;
+  margin-left: 240px;
 }
 
+
+.alinhamento-content{
+  display: flex;
+  align-items: end;
+  gap: 55px;
+  flex-direction: column;
+}
+
+.alinhamento-content  > h1{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-right: 307px;
+  font-size: 91px;
+  gap: 20px;
+}
+
+.alinhamento-content > p{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-left: 307px;
+}
 
 @media (max-width: 448px){
 
@@ -152,7 +180,7 @@ section{
   .content-nav{
   justify-content: center;
   align-items: center;
-  gap: 22px;
+  gap: 15px;
   margin-right: 88px;
 } 
 
@@ -177,18 +205,17 @@ section{
 }
 
 .content-img{
-  height: 400px;
-  width: 288px; 
+  height: 500px;
+  width: 500px; 
   gap: 30px;
   margin-top: 60px;
-  margin-left: 200px;
+  margin-left: 20px;
 }
   .content-button{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0px;
-  margin-left: 37px;
+  margin-top: 5px;
 }
 
 .content-filho{
@@ -202,5 +229,16 @@ a:hover{
   color: black;
 
 }
-
+section{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+  
+.alinhamento-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 }
