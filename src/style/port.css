@@ -123,9 +123,15 @@ main{
   align-items: center;
   gap: 22px;
   margin-top: 70px;
+  margin-left: 25px;
 }
 
+<<<<<<< HEAD
 section{  
+=======
+section{
+  flex-direction: column;
+>>>>>>> c4d115613af13a2f020d3a58fa498dbf47587659
   width: 100%;
   display: flex;
   color: white;
@@ -138,7 +144,7 @@ section{
   justify-content: center;
   align-items: center;
   margin-top: 250px;
-  margin-left: 240px;
+  margin-left: 230px;
 }
 
 
@@ -150,7 +156,6 @@ section{
 }
 
 .alinhamento-content  > h1{
-  display: flex;
   align-items: end;
   justify-content: end;
   margin-right: 307px;
@@ -163,6 +168,7 @@ section{
   display: flex;
   align-items: end;
   justify-content: end;
+<<<<<<< HEAD
   
 }
 
@@ -173,7 +179,32 @@ section{
   margin-top: ;
 
 
+=======
+  margin-left: 307px;
+  font-size: 36px;
+>>>>>>> c4d115613af13a2f020d3a58fa498dbf47587659
 }
+
+aside{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+aside > h2{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 76px;
+  margin-top: 300px;
+
+}
+
+
+
+
+
 
 @media (max-width: 448px){
 
