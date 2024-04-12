@@ -313,10 +313,10 @@ section{
 }
   
   .content-nav{
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin-right: 88px;
 } 
 
   main{
@@ -337,8 +337,7 @@ section{
 .content-img{
   display: flex;
 align-items: center;
-  height: 500px;
-  width: 500px; 
+  width: 1px; 
   gap: 30px;
   margin-top: 60px;
 }
