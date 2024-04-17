@@ -407,4 +407,8 @@ section{
 .align-hard > h1{
   font-size: 67px;
 }
+
+.logos-img{
+  flex-direction: column;
+}
 }
