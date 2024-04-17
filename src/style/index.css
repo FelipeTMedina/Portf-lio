@@ -304,20 +304,21 @@ section{
 
   header{
     display: flex;
+    width: 700px;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    border: 1px solid white;
   }
 
   .content-name{
-}
-  
+    border: 1px solid white;
+  }
+
   .content-nav{
-  justify-content: center;
-  align-items: center;
   gap: 15px;
-  margin-right: 88px;
-} 
+  border: 1px solid white;
+  margin-left: -10px;
+}
 
   main{
   display: flex;
@@ -336,11 +337,12 @@ section{
 
 .content-img{
   display: flex;
-align-items: center;
-  height: 500px;
-  width: 500px; 
+  align-items: center;
+  justify-content: center;
+  width: 1px; 
   gap: 30px;
   margin-top: 60px;
+  margin-left: -40px;
 }
   .content-button{
   display: flex;
@@ -361,6 +363,7 @@ a:hover{
 }
 section{
   display: flex;
+  justify-content: center;
   flex-direction: column;
   color: white;
 }
@@ -370,5 +373,38 @@ section{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.content-button{
+  margin-left: -25px;
+
+}
+
+.content-midias{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -25px;
+}
+
+.alinhamento-section > img{
+  margin-left: -225px;
+  margin-top: -55px;
+}
+.align-all {
+ margin-top: -280px;
+}
+
+.align-all >h2{
+ font-size: 67px;
+ margin-left: -220px;
+
+}
+.align-all > p{
+  width: 400px;
+  margin-left: -155px;
+}
+.align-hard > h1{
+  font-size: 67px;
 }
 }
