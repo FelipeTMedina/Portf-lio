@@ -391,7 +391,19 @@ section{
 
 .alinhamento-section > img{
   margin-left: -225px;
-  margin-top: -35px;
+  margin-top: -55px;
+}
+.align-all {
+ margin-top: -280px;
 }
 
+.align-all >h2{
+ font-size: 67px;
+ margin-left: -220px;
+
+}
+.align-all > p{
+  width: 400px;
+  margin-left: -155px;
+}
 }
