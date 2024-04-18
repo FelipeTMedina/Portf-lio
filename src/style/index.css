@@ -312,16 +312,11 @@ article{
     width: 700px;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid white;
-  }
-
-  .content-name{
-    border: 1px solid white;
+    
   }
 
   .content-nav{
   gap: 15px;
-  border: 1px solid white;
   margin-left: -10px;
 }
 
