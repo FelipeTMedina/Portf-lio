@@ -388,11 +388,11 @@ section{
 }
 
 .alinhamento-section > img{
-  margin-left: -225px;
+  margin-left: -220px;
   margin-top: -55px;
 }
 .align-all {
- margin-top: -280px;
+ margin-top: -280px;  
 }
 
 .align-all >h2{
@@ -401,8 +401,8 @@ section{
 
 }
 .align-all > p{
-  width: 400px;
-  margin-left: -155px;
+  width: 370px;
+  margin-left: -170px;
 }
 .align-hard > h1{
   font-size: 67px;
