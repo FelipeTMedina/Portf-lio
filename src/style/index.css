@@ -58,7 +58,7 @@ header{
   color: white;
 }
 
-a:hover{
+.content-nav a:hover{
   border-radius: 5px;
   background-color:#FFDE59 ;
   color: black;
