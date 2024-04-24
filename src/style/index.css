@@ -472,4 +472,15 @@ section{
 .logos-img{
   flex-direction: column;
 }
+
+.align-allport{
+  margin-top: -90px;
+ margin-left: -200px;
+ flex-direction: column;
+}
+
+.align-myportifólio{
+  flex-direction: column;
+  gap: -10px;
+}
 }
